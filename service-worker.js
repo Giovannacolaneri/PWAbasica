@@ -3,8 +3,8 @@ self.addEventListener('install', (event )=>{
     console.log('Service Worker: Instalado');
     caches.open ("pwa").then((cache)=>{
         console.log("cache aberto")
-        cache.addAll(["index.html",
-          "manifest.json", "script.js", "service-worker.js"
+        cache.addAll(["/PWAbasica/index.html",
+          "/PWAbasica/manifest.json", "/PWAbasica/script.js", "/PWAbasica/service-worker.js"
         ]);
     });
 });
