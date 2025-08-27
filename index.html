@@ -5,25 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criando minha PWA</title>
     <link rel="manifest" href="/PWAbasica/manifest.json">
-    <link rel="stylesheet" href="/PWAbasica/style.css">
+    <link rel="stylesheet" href="style.css">
     
 
 </head>
 <body> 
-    
-    <h1>PWA básica</h1>
-    <input type="text">
+    <div class="lista">
+    <h1 class="cabecalho">Lista de Tarefas 
+    <div class="logo"><img src="icon-192x192.png" alt="Logo da Barbie"></div></h1> 
+    <div class="conteudo"><input type="text">
     <button>Adicionar</button>
-    <ul>
-<li> Item 1</li>
-<li> Item 2</li>
-<li> Item 3</li>
-<li> Item 4</li>
-
-
+     <ul>
+      <li><input type="checkbox" /> Item 1 <button>Remover</button></li>
+      <li><input type="checkbox" /> Item 2 <button>Remover</button></li>
+      <li><input type="checkbox" /> Item 3 <button>Remover</button></li>
     </ul>
-
-    <img src="/PWAbasica/LOGO.png" alt="logoBarbie">
+</div>
+</div>
 
     <script src="/PWAbasica/register.js"></script>
 </body>
